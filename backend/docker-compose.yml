@@ -3,7 +3,7 @@ services:
     image: postgis/postgis:17-3.5
     container_name: gis-demo
     ports:
-      - "5436:5432"
+      - "5437:5432"
     environment:
       POSTGRES_USER: ${DB_USERNAME}
       POSTGRES_PASSWORD: ${DB_PASSWORD}
