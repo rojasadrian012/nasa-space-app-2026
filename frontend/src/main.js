@@ -2,7 +2,9 @@ import "leaflet/dist/leaflet.css";
 import "./style.css";
 import L from "leaflet";
 
-const map = L.map("map").setView([-25.51, -54.61], 12);
+const cdeLocation = [25.5036, 54.6507];
+
+const map = L.map("mapa-demo").setView(cdeLocation, 12);
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "&copy; OpenStreetMap contributors",
